@@ -1,22 +1,22 @@
-# 🚀 Numeral System Converter (Any Base ↔ Any Base)A **Python-based numeral system converter** that allows conversion between **any base (2 to 36)**, including support for **fractional numbers**.
+# Numeral System Converter (Any Base ↔ Any Base)A **Python-based numeral system converter** that allows conversion between **any base (2 to 36)**, including support for **fractional numbers**.
 
 This project demonstrates core concepts of **number systems, base conversions, and floating-point handling**, making it useful for **students, developers, and digital electronics learners**.
 
 ---
 
-## 📌 Features
+##  Features
 
-- 🔄 Convert **any base → any base**
-- 🔢 Supports bases from **2 to 36**
-- 🧮 Handles both:
+- Convert **any base → any base**
+- Supports bases from **2 to 36**
+- Handles both:
   - Integer values
   - Fractional values (up to fixed precision)
-- ⚡ Lightweight and fast (no external dependencies)
-- 🧠 Clean logic for learning and understanding number systems
+- Lightweight and fast (no external dependencies)
+- Clean logic for learning and understanding number systems
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python 3  
 - **Concepts Used:**
@@ -26,16 +26,7 @@ This project demonstrates core concepts of **number systems, base conversions, a
   - String Manipulation
 
 ---
-
-## 📂 Project Structure
-📁 numeral-system-converter/
-│── main.py # Main conversion logic
-│── README.md # Documentation
-
-
----
-
-## ⚙️ How It Works
+## How It Works
 
 The conversion is done in **two steps**:
 
@@ -44,7 +35,7 @@ The conversion is done in **two steps**:
 
 ---
 
-## 🔑 Core Functions
+## Core Functions
 
 ### 1. `dec_to_any_base(num, base)`
 Converts a **decimal number → any base**
@@ -71,7 +62,7 @@ Main function that:
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ```python
 print("Binary '1010.101' to Hex:", convert_any_to_any("1010.101", 2, 16)) 
